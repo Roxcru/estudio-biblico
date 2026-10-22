@@ -1,0 +1,776 @@
+{    
+    "Versions": [
+        {
+            "Code": 1,
+            "Version":"Biblia Latinoamericana",
+            "Books": [
+                {
+                    "Name":"Genesis",
+                    "Menu":"Genesis",
+                    "Testament":"A",
+                    "Orden": 1,
+                    "Path":"./biblia/Latinoamericana/genesis.json",
+                    "CantChapter": 50
+                },
+                {
+                    "Name":"Exodo",
+                    "Menu":"Exodo",
+                    "Testament":"A",
+                    "Orden": 2,
+                    "Path":"./biblia/Latinoamericana/exodo.json",
+                    "CantChapter": 40
+                },
+                {
+                    "Name":"Libro de Levítico",
+                    "Menu":"Levítico",
+                    "Testament":"A",
+                    "Orden": 3,
+                    "Path":"./biblia/Latinoamericana/levitico.json",
+                    "CantChapter": 27
+                },                
+                {
+                    "Name":"Números",
+                    "Menu":"Números",
+                    "Testament":"A",
+                    "Orden": 4,
+                    "Path":"./biblia/Latinoamericana/numeros.json",
+                    "CantChapter": 36
+                },                
+                {
+                    "Name":"Deuteronomio",
+                    "Menu":"Deuteronomio",
+                    "Testament":"A",
+                    "Orden": 5,
+                    "Path":"./biblia/Latinoamericana/deuteronomio.json",
+                    "CantChapter": 34
+                },                
+                {
+                    "Name":"Josué",
+                    "Menu":"Josué",
+                    "Testament":"A",
+                    "Orden": 6,
+                    "Path":"./biblia/Latinoamericana/josue.json",
+                    "CantChapter": 24
+                },                
+                {
+                    "Name":"Jueces",
+                    "Menu":"Jueces",
+                    "Testament":"A",
+                    "Orden": 7,
+                    "Path":"./biblia/Latinoamericana/jueces.json",
+                    "CantChapter": 21
+                },
+                {
+                    "Name":"1er Libro de Samuel",
+                    "Menu":"1 Samuel",
+                    "Testament":"A",
+                    "Orden": 8,
+                    "Path":"./biblia/Latinoamericana/1samuel.json",
+                    "CantChapter": 31
+                },
+                {
+                    "Name":"2do Libro de Samuel",
+                    "Menu":"2 Samuel",
+                    "Testament":"A",
+                    "Orden": 9,
+                    "Path":"./biblia/Latinoamericana/2samuel.json",
+                    "CantChapter": 24
+                },
+                {
+                    "Name":"1er Libro de Reyes",
+                    "Menu":"1 Reyes",
+                    "Testament":"A",
+                    "Orden": 10,
+                    "Path":"./biblia/Latinoamericana/1reyes.json",
+                    "CantChapter": 22
+                },
+                {
+                    "Name":"2do Libro de Reyes",
+                    "Menu":"2 Reyes",
+                    "Testament":"A",
+                    "Orden": 11,
+                    "Path":"./biblia/Latinoamericana/2reyes.json",
+                    "CantChapter": 25
+                },
+                {
+                    "Name":"1 Crónicas",
+                    "Menu":"1 Crónicas",
+                    "Testament":"A",
+                    "Orden": 12,
+                    "Path":"./biblia/Latinoamericana/1cronicas.json",
+                    "CantChapter": 29
+                },
+                {
+                    "Name":"2 Crónicas",
+                    "Menu":"2 Crónicas",
+                    "Testament":"A",
+                    "Orden": 13,
+                    "Path":"./biblia/Latinoamericana/2cronicas.json",
+                    "CantChapter": 36
+                },
+                {
+                    "Name":"Esdras",
+                    "Menu":"Esdras",
+                    "Testament":"A",
+                    "Orden": 14,
+                    "Path":"./biblia/Latinoamericana/esdras.json",
+                    "CantChapter": 10
+                },
+                {
+                    "Name":"Nehemías",
+                    "Menu":"Nehemías",
+                    "Testament":"A",
+                    "Orden": 15,
+                    "Path":"./biblia/Latinoamericana/nehemias.json",
+                    "CantChapter": 13
+                },
+                {
+                    "Name":"1 Macabeos",
+                    "Menu":"1 Macabeos",
+                    "Testament":"A",
+                    "Orden": 16,
+                    "Path":"./biblia/Latinoamericana/1macabeos.json",
+                    "CantChapter": 16
+                },
+                {
+                    "Name":"2 Macabeos",
+                    "Menu":"2 Macabeos",
+                    "Testament":"A",
+                    "Orden": 17,
+                    "Path":"./biblia/Latinoamericana/2macabeos.json",
+                    "CantChapter": 15
+                },
+                {
+                    "Name":"Isaías",
+                    "Menu":"Isaías",
+                    "Testament":"A",
+                    "Orden": 18,
+                    "Path":"./biblia/Latinoamericana/isaias.json",
+                    "CantChapter": 66
+                },
+                {
+                    "Name":"Jeremías",
+                    "Menu":"Jeremías",
+                    "Testament":"A",
+                    "Orden": 19,
+                    "Path":"./biblia/Latinoamericana/jeremias.json",
+                    "CantChapter": 52
+                },
+                {
+                    "Name":"Ezequiel",
+                    "Menu":"Ezequiel",
+                    "Testament":"A",
+                    "Orden": 20,
+                    "Path":"./biblia/Latinoamericana/ezequiel.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Oseas",
+                    "Menu":"Oseas",
+                    "Testament":"A",
+                    "Orden": 21,
+                    "Path":"./biblia/Latinoamericana/oseas.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Joel",
+                    "Menu":"Joel",
+                    "Testament":"A",
+                    "Orden": 22,
+                    "Path":"./biblia/Latinoamericana/joel.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Amós",
+                    "Menu":"Amós",
+                    "Testament":"A",
+                    "Orden": 23,
+                    "Path":"./biblia/Latinoamericana/amos.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Abdías",
+                    "Menu":"Abdías",
+                    "Testament":"A",
+                    "Orden": 24,
+                    "Path":"./biblia/Latinoamericana/abdias.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Jonás",
+                    "Menu":"Jonás",
+                    "Testament":"A",
+                    "Orden": 25,
+                    "Path":"./biblia/Latinoamericana/jonas.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Miqueas",
+                    "Menu":"Miqueas",
+                    "Testament":"A",
+                    "Orden": 26,
+                    "Path":"./biblia/Latinoamericana/miqueas.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Nahúm",
+                    "Menu":"Nahúm",
+                    "Testament":"A",
+                    "Orden": 27,
+                    "Path":"./biblia/Latinoamericana/nahum.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Habacuq",
+                    "Menu":"Habacuq",
+                    "Testament":"A",
+                    "Orden": 28,
+                    "Path":"./biblia/Latinoamericana/habacuq.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Sofonías",
+                    "Menu":"Sofonías",
+                    "Testament":"A",
+                    "Orden": 29,
+                    "Path":"./biblia/Latinoamericana/sofonias.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Ageo",
+                    "Menu":"Ageo",
+                    "Testament":"A",
+                    "Orden": 30,
+                    "Path":"./biblia/Latinoamericana/ageo.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Zacarías",
+                    "Menu":"Zacarías",
+                    "Testament":"A",
+                    "Orden": 31,
+                    "Path":"./biblia/Latinoamericana/zacarias.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Malaquías",
+                    "Menu":"Malaquías",
+                    "Testament":"A",
+                    "Orden": 32,
+                    "Path":"./biblia/Latinoamericana/malaquias.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Daniel",
+                    "Menu":"Daniel",
+                    "Testament":"A",
+                    "Orden": 33,
+                    "Path":"./biblia/Latinoamericana/daniel.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Job",
+                    "Menu":"Job",
+                    "Testament":"A",
+                    "Orden": 34,
+                    "Path":"./biblia/Latinoamericana/job.json",
+                    "CantChapter": 42
+                },
+                {
+                    "Name":"Proverbios",
+                    "Menu":"Proverbios",
+                    "Testament":"A",
+                    "Orden": 35,
+                    "Path":"./biblia/Latinoamericana/proverbios.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Eclesiastés (Qohelet)",
+                    "Menu":"Eclesiastés",
+                    "Testament":"A",
+                    "Orden": 36,
+                    "Path":"./biblia/Latinoamericana/eclesiastes.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Cantar",
+                    "Menu":"Cantar",
+                    "Testament":"A",
+                    "Orden": 37,
+                    "Path":"./biblia/Latinoamericana/cantar.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Rut",
+                    "Menu":"Rut",
+                    "Testament":"A",
+                    "Orden": 38,
+                    "Path":"./biblia/Latinoamericana/rut.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Lamentaciones",
+                    "Menu":"Lamentaciones",
+                    "Testament":"A",
+                    "Orden": 39,
+                    "Path":"./biblia/Latinoamericana/lamentaciones.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Ester",
+                    "Menu":"Ester",
+                    "Testament":"A",
+                    "Orden": 40,
+                    "Path":"./biblia/Latinoamericana/ester.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Tobías",
+                    "Menu":"Tobías",
+                    "Testament":"A",
+                    "Orden": 41,
+                    "Path":"./biblia/Latinoamericana/tobias.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Judith",
+                    "Menu":"Judith",
+                    "Testament":"A",
+                    "Orden": 42,
+                    "Path":"./biblia/Latinoamericana/judith.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Baruc",
+                    "Menu":"Baruc",
+                    "Testament":"A",
+                    "Orden": 43,
+                    "Path":"./biblia/Latinoamericana/baruc.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Sabiduría",
+                    "Menu":"Sabiduría",
+                    "Testament":"A",
+                    "Orden": 44,
+                    "Path":"./biblia/Latinoamericana/sabiduria.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Sirácides (Eclesiástico)",
+                    "Menu":"Sirácides",
+                    "Testament":"A",
+                    "Orden": 45,
+                    "Path":"./biblia/Latinoamericana/siracides.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Salmos",
+                    "Menu":"Salmos",
+                    "Testament":"A",
+                    "Orden": 46,
+                    "Path":"./biblia/Latinoamericana/salmos.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Evangelio según San Mateo",
+                    "Menu":"San Mateo",
+                    "Testament":"N",
+                    "Orden": 1,
+                    "Path":"./biblia/Latinoamericana/mateo.json",
+                    "CantChapter": 28
+                },
+                {
+                    "Name":"Evangelio según San Marcos",
+                    "Menu":"San Marcos",
+                    "Testament":"N",
+                    "Orden": 2,
+                    "Path":"./biblia/Latinoamericana/marcos.json",
+                    "CantChapter": 16
+                },
+                {
+                    "Name":"Evangelio según San Lucas",
+                    "Menu":"San Lucas",
+                    "Testament":"N",
+                    "Orden": 3,
+                    "Path":"./biblia/Latinoamericana/lucas.json",
+                    "CantChapter": 24
+                },
+                {
+                    "Name":"Evangelio según Juan",
+                    "Menu":"San Juan",
+                    "Testament":"N",
+                    "Orden": 4,
+                    "Path":"./biblia/Latinoamericana/juan.json",
+                    "CantChapter": 21
+                },
+                {
+                    "Name":"Hechos de los Apóstoles",
+                    "Menu":"Hechos",
+                    "Testament":"N",
+                    "Orden": 5,
+                    "Path":"./biblia/Latinoamericana/hechos.json",
+                    "CantChapter": 28
+                }
+            ]
+        },
+        {
+            "Code": 2,
+            "Version":"Reina Valera 1960",
+            "Books": [
+                {
+                    "Name":"Genesis",
+                    "Menu":"Genesis",
+                    "Testament":"A",
+                    "Orden": 1,
+                    "Path":"./biblia/ReinaValera1960/genesis.json",
+                    "CantChapter": 50
+                },
+                {
+                    "Name":"Exodo",
+                    "Menu":"Exodo",
+                    "Testament":"A",
+                    "Orden": 2,
+                    "Path":"./biblia/ReinaValera1960/exodo.json",
+                    "CantChapter": 40
+                },
+                {
+                    "Name":"Libro de Levítico",
+                    "Menu":"Levítico",
+                    "Testament":"A",
+                    "Orden": 3,
+                    "Path":"./biblia/ReinaValera1960/levitico.json",
+                    "CantChapter": 27
+                },
+                {
+                    "Name":"Números",
+                    "Menu":"Números",
+                    "Testament":"A",
+                    "Orden": 4,
+                    "Path":"./biblia/ReinaValera1960/numeros.json",
+                    "CantChapter": 36
+                },                
+                {
+                    "Name":"Deuteronomio",
+                    "Menu":"Deuteronomio",
+                    "Testament":"A",
+                    "Orden": 5,
+                    "Path":"./biblia/ReinaValera1960/deuteronomio.json",
+                    "CantChapter": 34
+                },                
+                {
+                    "Name":"Josué",
+                    "Menu":"Josué",
+                    "Testament":"A",
+                    "Orden": 6,
+                    "Path":"./biblia/ReinaValera1960/josue.json",
+                    "CantChapter": 24
+                },                
+                {
+                    "Name":"Jueces",
+                    "Menu":"Jueces",
+                    "Testament":"A",
+                    "Orden": 7,
+                    "Path":"./biblia/ReinaValera1960/jueces.json",
+                    "CantChapter": 21
+                }, 
+                {
+                    "Name":"1er Libro de Samuel",
+                    "Menu":"1 Samuel",
+                    "Testament":"A",
+                    "Orden": 8,
+                    "Path":"./biblia/ReinaValera1960/1samuel.json",
+                    "CantChapter": 31
+                },
+                {
+                    "Name":"2do Libro de Samuel",
+                    "Menu":"2 Samuel",
+                    "Testament":"A",
+                    "Orden": 9,
+                    "Path":"./biblia/ReinaValera1960/2samuel.json",
+                    "CantChapter": 24
+                },
+                {
+                    "Name":"1er Libro de Reyes",
+                    "Menu":"1 Reyes",
+                    "Testament":"A",
+                    "Orden": 10,
+                    "Path":"./biblia/ReinaValera1960/1reyes.json",
+                    "CantChapter": 22
+                },
+                {
+                    "Name":"2do Libro de Reyes",
+                    "Menu":"2 Reyes",
+                    "Testament":"A",
+                    "Orden": 11,
+                    "Path":"./biblia/ReinaValera1960/2reyes.json",
+                    "CantChapter": 25
+                },
+                {
+                    "Name":"1 Crónicas",
+                    "Menu":"1 Crónicas",
+                    "Testament":"A",
+                    "Orden": 12,
+                    "Path":"./biblia/ReinaValera1960/1cronicas.json",
+                    "CantChapter": 29
+                },
+                {
+                    "Name":"2 Crónicas",
+                    "Menu":"2 Crónicas",
+                    "Testament":"A",
+                    "Orden": 13,
+                    "Path":"./biblia/ReinaValera1960/2cronicas.json",
+                    "CantChapter": 36
+                },
+                {
+                    "Name":"Esdras",
+                    "Menu":"Esdras",
+                    "Testament":"A",
+                    "Orden": 14,
+                    "Path":"./biblia/ReinaValera1960/esdras.json",
+                    "CantChapter": 10
+                },
+                {
+                    "Name":"Nehemías",
+                    "Menu":"Nehemías",
+                    "Testament":"A",
+                    "Orden": 15,
+                    "Path":"./biblia/ReinaValera1960/nehemias.json",
+                    "CantChapter": 13
+                },
+                {
+                    "Name":"Isaías",
+                    "Menu":"Isaías",
+                    "Testament":"A",
+                    "Orden": 16,
+                    "Path":"./biblia/ReinaValera1960/isaias.json",
+                    "CantChapter": 66
+                },
+                {
+                    "Name":"Jeremías",
+                    "Menu":"Jeremías",
+                    "Testament":"A",
+                    "Orden": 17,
+                    "Path":"./biblia/ReinaValera1960/jeremias.json",
+                    "CantChapter": 52
+                },
+                {
+                    "Name":"Ezequiel",
+                    "Menu":"Ezequiel",
+                    "Testament":"A",
+                    "Orden": 18,
+                    "Path":"./biblia/ReinaValera1960/ezequiel.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Oseas",
+                    "Menu":"Oseas",
+                    "Testament":"A",
+                    "Orden": 19,
+                    "Path":"./biblia/ReinaValera1960/oseas.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Joel",
+                    "Menu":"Joel",
+                    "Testament":"A",
+                    "Orden": 20,
+                    "Path":"./biblia/ReinaValera1960/joel.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Amós",
+                    "Menu":"Amós",
+                    "Testament":"A",
+                    "Orden": 21,
+                    "Path":"./biblia/ReinaValera1960/amos.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Abdías",
+                    "Menu":"Abdías",
+                    "Testament":"A",
+                    "Orden": 22,
+                    "Path":"./biblia/ReinaValera1960/abdias.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Jonás",
+                    "Menu":"Jonás",
+                    "Testament":"A",
+                    "Orden": 23,
+                    "Path":"./biblia/ReinaValera1960/jonas.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Miqueas",
+                    "Menu":"Miqueas",
+                    "Testament":"A",
+                    "Orden": 24,
+                    "Path":"./biblia/ReinaValera1960/miqueas.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Nahúm",
+                    "Menu":"Nahúm",
+                    "Testament":"A",
+                    "Orden": 25,
+                    "Path":"./biblia/ReinaValera1960/nahum.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Habacuq",
+                    "Menu":"Habacuq",
+                    "Testament":"A",
+                    "Orden": 26,
+                    "Path":"./biblia/ReinaValera1960/habacuq.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Sofonías",
+                    "Menu":"Sofonías",
+                    "Testament":"A",
+                    "Orden": 27,
+                    "Path":"./biblia/ReinaValera1960/sofonias.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Ageo",
+                    "Menu":"Ageo",
+                    "Testament":"A",
+                    "Orden": 28,
+                    "Path":"./biblia/ReinaValera1960/ageo.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Zacarías",
+                    "Menu":"Zacarías",
+                    "Testament":"A",
+                    "Orden": 29,
+                    "Path":"./biblia/ReinaValera1960/zacarias.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Malaquías",
+                    "Menu":"Malaquías",
+                    "Testament":"A",
+                    "Orden": 30,
+                    "Path":"./biblia/ReinaValera1960/malaquias.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Daniel",
+                    "Menu":"Daniel",
+                    "Testament":"A",
+                    "Orden": 31,
+                    "Path":"./biblia/ReinaValera1960/daniel.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Job",
+                    "Menu":"Job",
+                    "Testament":"A",
+                    "Orden": 32,
+                    "Path":"./biblia/ReinaValera1960/job.json",
+                    "CantChapter": 42
+                },
+                {
+                    "Name":"Proverbios",
+                    "Menu":"Proverbios",
+                    "Testament":"A",
+                    "Orden": 33,
+                    "Path":"./biblia/ReinaValera1960/proverbios.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Eclesiastés (Qohelet)",
+                    "Menu":"Eclesiastés",
+                    "Testament":"A",
+                    "Orden": 34,
+                    "Path":"./biblia/ReinaValera1960/eclesiastes.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Cantar",
+                    "Menu":"Cantar",
+                    "Testament":"A",
+                    "Orden": 35,
+                    "Path":"./biblia/ReinaValera1960/cantar.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Rut",
+                    "Menu":"Rut",
+                    "Testament":"A",
+                    "Orden": 36,
+                    "Path":"./biblia/ReinaValera1960/rut.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Lamentaciones",
+                    "Menu":"Lamentaciones",
+                    "Testament":"A",
+                    "Orden": 37,
+                    "Path":"./biblia/ReinaValera1960/lamentaciones.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Ester",
+                    "Menu":"Ester",
+                    "Testament":"A",
+                    "Orden": 38,
+                    "Path":"./biblia/ReinaValera1960/ester.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Salmos",
+                    "Menu":"Salmos",
+                    "Testament":"A",
+                    "Orden": 39,
+                    "Path":"./biblia/ReinaValera1960/salmos.json",
+                    "CantChapter": 0
+                },
+                {
+                    "Name":"Evangelio según San Mateo",
+                    "Menu":"San Mateo",
+                    "Testament":"N",
+                    "Orden": 1,
+                    "Path":"./biblia/ReinaValera1960/mateo.json",
+                    "CantChapter": 28
+                },
+                {
+                    "Name":"Evangelio según San Marcos",
+                    "Menu":"San Marcos",
+                    "Testament":"N",
+                    "Orden": 2,
+                    "Path":"./biblia/ReinaValera1960/marcos.json",
+                    "CantChapter": 16
+                },
+                {
+                    "Name":"Evangelio según San Lucas",
+                    "Menu":"San Lucas",
+                    "Testament":"N",
+                    "Orden": 3,
+                    "Path":"./biblia/ReinaValera1960/lucas.json",
+                    "CantChapter": 24
+                },
+                {
+                    "Name":"Evangelio según Juan",
+                    "Menu":"San Juan",
+                    "Testament":"N",
+                    "Orden": 4,
+                    "Path":"./biblia/ReinaValera1960/juan.json",
+                    "CantChapter": 21
+                },
+                {
+                    "Name":"Hechos de los Apóstoles",
+                    "Menu":"Hechos",
+                    "Testament":"N",
+                    "Orden": 5,
+                    "Path":"./biblia/ReinaValera1960/hechos.json",
+                    "CantChapter": 28
+                }
+            ]
+        }
+    ]
+}

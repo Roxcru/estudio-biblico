@@ -1,0 +1,502 @@
+{    
+    "Chapters": [
+        {
+            "Chapter": 1,
+            "Verses": [
+                {
+                    "Verse": 1,
+                    "Text": "Yavé llamó a Moisés y le habló así, desde la Tienda de las Citas divinas: «Esto tienes que decir a los hijos de Israel:"
+                },
+                {
+                    "Verse": 2,
+                    "Text": "Cuando alguno de ustedes presente a Yavé una ofrenda de animales, esta ofrenda podrá ser de ganado mayor o menor."
+                },
+                {
+                    "Verse": 3,
+                    "Text": "Si quiere ofrecer un holocausto, es decir una víctima totalmente quemada, presentará a la entrada de la Tienda de las Citas el macho sin defecto que haya escogido, y así su sacrificio será agradable a Yavé."
+                },
+                {
+                    "Verse": 4,
+                    "Text": "Pondrá su mano sobre la cabeza de la víctima, para que Yavé se la reciba para perdón de sus pecados."
+                },
+                {
+                    "Verse": 5,
+                    "Text": "Sacrificará el novillo delante de Yavé y los sacerdotes, hijos de Aarón, ofrecerán la sangre derramándola sobre el altar que está a la entrada de la Tienda de las Citas, y todo en derredor."
+                },
+                {
+                    "Verse": 6,
+                    "Text": "Entonces desollarán la víctima y la despedazarán;"
+                },
+                {
+                    "Verse": 7,
+                    "Text": "luego los hijos del sacerdote Aarón pondrán fuego en el altar y colocarán leña sobre el fuego;"
+                },
+                {
+                    "Verse": 8,
+                    "Text": "acomodarán los trozos con la cabeza y las grasas encima de la leña colocada sobre el fuego del altar."
+                },
+                {
+                    "Verse": 9,
+                    "Text": "Lavarán con agua las entrañas y las patas, y el sacerdote lo quemará todo en el altar. Así es el holocausto, y es un sacrificio por el fuego cuyo suave olor apacigua a Yavé."
+                },
+                {
+                    "Verse": 10,
+                    "Text": "Si alguien ofrece ganado menor, corderos o cabras, también ofrecerá un macho sin defecto."
+                },
+                {
+                    "Verse": 11,
+                    "Text": "Lo sacrificarán ante Yavé, al lado norte del altar; los sacerdotes derramarán la sangre en el altar y en todo su derredor."
+                },
+                {
+                    "Verse": 12,
+                    "Text": "Luego lo despedazarán en porciones y el sacerdote lo dispondrá con la cabeza y el sebo encima de la leña colocada sobre el fuego del altar."
+                },
+                {
+                    "Verse": 13,
+                    "Text": "Lavarán con agua las entrañas y las patas y el sacerdote lo ofrecerá y lo quemará en el altar. Así es el holocausto, y es un sacrificio por el fuego cuyo suave olor apacigua a Yavé."
+                },
+                {
+                    "Verse": 14,
+                    "Text": "Si se ofrece a Yavé un holocausto de aves, presentarán tórtolas o pichones."
+                },
+                {
+                    "Verse": 15,
+                    "Text": "El sacerdote presentará la víctima en el altar, le retorcerá la cabeza y la quemará sobre el altar; la sangre la exprimirá sobre la pared del altar."
+                },
+                {
+                    "Verse": 16,
+                    "Text": "Le quitará el buche y las plumas y las arrojará a las cenizas, al lado oriental del altar."
+                },
+                {
+                    "Verse": 17,
+                    "Text": "Se abrirá el ave entre las alas, sin partirla. El sacerdote la quemará en el altar encima de la leña colocada sobre el fuego. Así es el holocausto, y es un sacrificio por el fuego cuyo suave olor apacigua a Yavé.»"
+                }                
+            ]
+        },
+        {
+            "Chapter": 2,
+            "Verses": [
+                {
+                    "Verse": 1,
+                    "Text": "«Cuando alguien ofrezca a Yavé una ofrenda, ésta consistirá en flor de harina, sobre la que derramará aceite y pondrá incienso."
+                },
+                {
+                    "Verse": 2,
+                    "Text": "La llevará a los hijos de Aarón, a los sacerdotes; el sacerdote tomará un puñado de harina con aceite y todo el incienso; luego lo quemará en el altar para que Dios se acuerde de aquel que ofrece. Es un sacrificio por el fuego de calmante aroma para Yavé."
+                },
+                {
+                    "Verse": 3,
+                    "Text": "El resto de la ofrenda quedará para Aarón y sus hijos; es cosa muy sagrada porque proviene del sacrificio por el fuego para Yavé."
+                },
+                {
+                    "Verse": 4,
+                    "Text": "Cuando quieras ofrecer alguna masa cocida al horno, será de flor de harina en panes sin levadura amasados con aceite, o en tortas sin levadura untadas de aceite."
+                },
+                {
+                    "Verse": 5,
+                    "Text": "Si ofreces alguna masa preparada en la parrilla, ésta deberá ser de flor de harina amasada con aceite, sin levadura."
+                },
+                {
+                    "Verse": 6,
+                    "Text": "La partirás en trozos y le echarás aceite, pues es una ofrenda."
+                },
+                {
+                    "Verse": 7,
+                    "Text": "Si presentas una ofrenda preparada en sartén, ésta será de flor de harina con aceite."
+                },
+                {
+                    "Verse": 8,
+                    "Text": "Presentarás al sacerdote dichas ofrendas que llevas a Yavé, para que las presente al altar."
+                },
+                {
+                    "Verse": 9,
+                    "Text": "El sacerdote reservará parte de la ofrenda para que Dios se acuerde de aquel que ofrece, y la quemará en el altar: es un sacrificio por el fuego de calmante olor para Yavé."
+                },
+                {
+                    "Verse": 10,
+                    "Text": "El resto de la ofrenda quedará para Aarón y sus hijos, como porción muy sagrada del sacrificio por el fuego para Yavé."
+                },
+                {
+                    "Verse": 11,
+                    "Text": "No se presentará a Yavé ninguna ofrenda de masa fermentada. No habrá ni levadura ni miel en los sacrificios por el fuego que ofrezcan a Yavé."
+                },
+                {
+                    "Verse": 12,
+                    "Text": "Se podrán ofrecer a Yavé como primicias, pero no se pondrán en el altar como sacrificios de calmante aroma."
+                },
+                {
+                    "Verse": 13,
+                    "Text": "En toda ofrenda que presentes, pondrás sal, pues así como la alianza con tu Dios es alianza de sal, también estará la sal en tus ofrendas: todas serán saladas."
+                },
+                {
+                    "Verse": 14,
+                    "Text": "Si ofreces a Yavé las primicias de tus sembrados, presentarás las espigas tostadas al fuego, o granos nuevos partidos. Así será tu ofrenda de primicias."
+                },
+                {
+                    "Verse": 15,
+                    "Text": "Echarás por encima aceite e incienso, por ser una ofrenda."
+                },
+                {
+                    "Verse": 16,
+                    "Text": "El sacerdote quemará en tu nombre parte del grano molido y del aceite, con todo el incienso. Es un sacrificio por el fuego para Yavé."
+                }
+            ]
+        },
+        {
+            "Chapter": 3,
+            "Verses": [
+                {
+                    "Verse": 1,
+                    "Text": "Cuando alguien ofrezca vacuno como sacrificio de comunión, ya sea macho o hembra, ofrecerá un animal sin defecto."
+                },
+                {
+                    "Verse": 2,
+                    "Text": "Pondrá su mano sobre la cabeza de la víctima y la degollará a la entrada de la Tienda de las Citas; y los hijos de Aarón, los sacerdotes, derramarán la sangre en el altar y en su derredor."
+                },
+                {
+                    "Verse": 3,
+                    "Text": "Se tomará una parte del sacrificio de comunión y se ofrecerá por el fuego para Yavé: el sebo que cubre las entrañas y todo lo que hay sobre ellas;"
+                },
+                {
+                    "Verse": 4,
+                    "Text": "los dos riñones y el sebo adherido a ellos y a los lomos, y la telilla del hígado que se separará de los riñones."
+                },
+                {
+                    "Verse": 5,
+                    "Text": "Los hijos de Aarón quemarán todo esto en el altar encima del holocausto que está sobre la leña puesta al fuego. Será un sacrificio por el fuego de calmante olor para Yavé."
+                },
+                {
+                    "Verse": 6,
+                    "Text": "Si lo que se ofrece como sacrificio de comunión ante Yavé es de ganado menor, se ofrecerá un animal sin defecto, macho o hembra."
+                },
+                {
+                    "Verse": 7,
+                    "Text": "Si alguien ofrece un cordero, lo presentará ante Yavé,"
+                },
+                {
+                    "Verse": 8,
+                    "Text": "pondrá su mano sobre la cabeza de su víctima, y luego la degollará a la entrada de la Tienda de las Citas. Los hijos de Aarón derramarán su sangre en el altar y en su derredor."
+                },
+                {
+                    "Verse": 9,
+                    "Text": "Parte de este sacrificio de comunión será quemada para Yavé: la gordura y la cola entera"
+                },
+                {
+                    "Verse": 10,
+                    "Text": "con los riñones y el sebo adherido a ellos y a los lomos, junto con la telilla del hígado que se separará de los riñones."
+                },
+                {
+                    "Verse": 11,
+                    "Text": "El sacerdote quemará todo esto sobre el altar como sacrificio para Yavé."
+                },
+                {
+                    "Verse": 12,
+                    "Text": "Si su ofrenda es una cabra, la presentará ante Yavé,"
+                },
+                {
+                    "Verse": 13,
+                    "Text": "impondrá la mano sobre su cabeza y la sacrificará ante la Tienda de las Citas; los hijos de Aarón derramarán su sangre en el altar y alrededor."
+                },
+                {
+                    "Verse": 14,
+                    "Text": "Presentará parte de ella como sacrificio por el fuego para Yavé:"
+                },
+                {
+                    "Verse": 15,
+                    "Text": "el sebo que cubre las entrañas y el que está encima, con el sebo adherido a ellos y a los lomos, junto con la telilla del hígado."
+                },
+                {
+                    "Verse": 16,
+                    "Text": "El sacerdote quemará todo esto en el altar, como alimento pasado por el fuego, de calmante olor para Yavé."
+                },
+                {
+                    "Verse": 17,
+                    "Text": "Toda la grasa pertenece a Yavé. Este es un decreto perpetuo de generación en generación, dondequiera que vivan. No comerán grasa ni sangre."
+                }
+            ]
+        },
+        {
+            "Chapter": 4,
+            "Verses": [
+                {
+                    "Verse": 1,
+                    "Text": "Yavé habló así a Moisés:"
+                },
+                {
+                    "Verse": 2,
+                    "Text": "«Dirás a los hijos de Israel: Estas son las normas para las personas que pecan por ignorancia contra uno de los mandamientos de Yavé, haciendo algo que no debe hacerse."
+                },
+                {
+                    "Verse": 3,
+                    "Text": "Si el que peca es el sumo sacerdote, el ungido, su pecado mancha al pueblo. Ofrecerá a Yavé, por el pecado que cometió, un novillo sin defecto."
+                },
+                {
+                    "Verse": 4,
+                    "Text": "Lo traerá a la Tienda de las Citas a la presencia de Yavé; pondrá la mano sobre la cabeza del novillo, y luego lo sacrificará delante de Yavé."
+                },
+                {
+                    "Verse": 5,
+                    "Text": "Entonces el sacerdote ungido tomará parte de su sangre, que llevará a la Tienda de las Citas,"
+                },
+                {
+                    "Verse": 6,
+                    "Text": "y habiendo mojado el dedo en la sangre rociará con ella siete veces hacia el velo del santuario."
+                },
+                {
+                    "Verse": 7,
+                    "Text": "El sacerdote teñirá con la sangre los cuernos del altar del incienso aromático para Yavé que está en la Tienda de las Citas, y vaciará el resto de la sangre al pie del altar de los holocaustos, a la entrada de la Tienda de las Citas."
+                },
+                {
+                    "Verse": 8,
+                    "Text": "Después quitará la grasa del novillo sacrificado por el pecado, tanto la que cubre las entrañas, como la que está encima,"
+                },
+                {
+                    "Verse": 9,
+                    "Text": "los riñones y el sebo adherido a éstos y a los lomos, junto con la telilla del hígado."
+                },
+                {
+                    "Verse": 10,
+                    "Text": "Hará como se hace en los sacrificios de comunión: lo quemará sobre el altar de los holocaustos."
+                },
+                {
+                    "Verse": 11,
+                    "Text": "#"
+                },
+                {
+                    "Verse": 12,
+                    "Text": "Todo lo restante del animal, la piel, toda la carne, la cabeza, patas e intestinos y el excremento, lo llevará fuera del campamento, a un lugar limpio donde se suelen echar las cenizas de las víctimas. Allí lo quemarán sobre un montón de leña."
+                },
+                {
+                    "Verse": 13,
+                    "Text": "Si toda la comunidad de Israel ha pecado por ignorancia, sin darse cuenta de que hizo alguna cosa prohibida por Yavé,"
+                },
+                {
+                    "Verse": 14,
+                    "Text": "en cuanto la comunidad se dé cuenta del pecado, ofrecerá un novillo como sacrificio por el pecado. Lo llevarán a la entrada de la Tienda de las Citas,"
+                },
+                {
+                    "Verse": 15,
+                    "Text": "y los ancianos del pueblo pondrán las manos sobre la cabeza del ternero, en la presencia de Yavé. Allí sacrificarán el novillo."
+                },
+                {
+                    "Verse": 16,
+                    "Text": "El sacerdote ungido llevará parte de la sangre a la Tienda de las Citas;"
+                },
+                {
+                    "Verse": 17,
+                    "Text": "allí mojará su dedo en sangre y hará siete aspersiones hacia el velo."
+                },
+                {
+                    "Verse": 18,
+                    "Text": "Teñirá también con sangre los cuernos del altar que está ante Yavé en la Tienda de las Citas, y derramará la sangre restante al pie del altar de los sacrificios que está a la entrada de la Tienda de las Citas."
+                },
+                {
+                    "Verse": 19,
+                    "Text": "Luego quitará toda la grasa y la quemará sobre el altar,"
+                },
+                {
+                    "Verse": 20,
+                    "Text": "haciendo en todo con este novillo lo mismo que se hace al ofrecer el sacrificio por el pecado del sacerdote. Así hará la expiación por ellos y serán perdonados."
+                },
+                {
+                    "Verse": 21,
+                    "Text": "Sacarán el ternero fuera del campamento y lo quemarán también como el primero, por ser sacrificio por el pecado de toda la asamblea."
+                },
+                {
+                    "Verse": 22,
+                    "Text": "Si un jefe ha pecado, haciendo sin darse cuenta alguna de las muchas cosas que prohíbe la ley de Yavé, se encuentra con un delito."
+                },
+                {
+                    "Verse": 23,
+                    "Text": "En cuanto se dé cuenta de su pecado, traerá como ofrenda un macho cabrío sin defecto,"
+                },
+                {
+                    "Verse": 24,
+                    "Text": "le pondrá su mano sobre la cabeza y lo degollará en el lugar donde se sacrifica el holocausto en presencia de Yavé."
+                },
+                {
+                    "Verse": 25,
+                    "Text": "Es un sacrificio por el pecado. El sacerdote mojará su dedo en la sangre de la víctima y derramará la sangre al pie de este altar."
+                },
+                {
+                    "Verse": 26,
+                    "Text": "El sebo lo quemará encima, como se hace en los sacrificios de comunión. De esta forma el sacerdote hará la expiación por la persona y por su pecado, y será perdonada."
+                },
+                {
+                    "Verse": 27,
+                    "Text": "Si uno del pueblo ha pecado por inadvertencia, haciendo algo prohibido por Yavé, se encuentra con un delito."
+                },
+                {
+                    "Verse": 28,
+                    "Text": "En cuanto se dé cuenta del pecado cometido, presentará como ofrenda una cabra sin defecto,"
+                },
+                {
+                    "Verse": 29,
+                    "Text": "pondrá la mano sobre la cabeza de la víctima y la degollará en el lugar de los holocaustos."
+                },
+                {
+                    "Verse": 30,
+                    "Text": "El sacerdote mojará su dedo en la sangre, teñirá con ella los cuernos del altar de los holocaustos, y derramará el resto junto a su base."
+                },
+                {
+                    "Verse": 31,
+                    "Text": "Quitará toda la grasa como suele quitarse de los sacrificios de comunión, la quemará sobre el altar como calmante olor para Yavé. Así hará la expiación por la persona y por su pecado, y será perdonada."
+                },
+                {
+                    "Verse": 32,
+                    "Text": "Si ofrece por el pecado una ovejita, tomará una oveja sin defecto,"
+                },
+                {
+                    "Verse": 33,
+                    "Text": "pondrá la mano sobre la cabeza de la víctima y la degollará en el lugar donde se degüellan las víctimas de los holocaustos."
+                },
+                {
+                    "Verse": 34,
+                    "Text": "El sacerdote mojará su dedo en la sangre y teñirá con ella los cuernos del altar de los holocaustos, luego derramará el resto de la sangre al pie del altar."
+                },
+                {
+                    "Verse": 35,
+                    "Text": "También quitará toda la grasa, así como se quita del ternero sacrificado en sacrificio de comunión, la quemará sobre el altar encima de los sacrificios haciendo la expiación por el que ofrece y por su pecado, y le será perdonado."
+                }
+            ]
+        },
+        {
+            "Chapter": 5,
+            "Verses": [
+
+            ]
+        },
+        {
+            "Chapter": 6,
+            "Verses": [
+
+            ]
+        },
+        {
+            "Chapter": 7,
+            "Verses": [
+
+            ]
+        },
+        {
+            "Chapter": 8,
+            "Verses": [
+
+            ]
+        },
+        {
+            "Chapter": 9,
+            "Verses": [
+
+            ]
+        },
+        {
+            "Chapter": 10,
+            "Verses": [
+
+            ]
+        },
+        {
+            "Chapter": 11,
+            "Verses": [
+
+            ]
+        },
+        {
+            "Chapter": 12,
+            "Verses": [
+
+            ]
+        },
+        {
+            "Chapter": 13,
+            "Verses": [
+
+            ]
+        },
+        {
+            "Chapter": 14,
+            "Verses": [
+
+            ]
+        },
+        {
+            "Chapter": 15,
+            "Verses": [
+
+            ]
+        },
+        {
+            "Chapter": 16,
+            "Verses": [
+
+            ]
+        },
+        {
+            "Chapter": 17,
+            "Verses": [
+
+            ]
+        },
+        {
+            "Chapter": 18,
+            "Verses": [
+
+            ]
+        },
+        {
+            "Chapter": 19,
+            "Verses": [
+
+            ]
+        },
+        {
+            "Chapter": 20,
+            "Verses": [
+
+            ]
+        },
+        {
+            "Chapter": 21,
+            "Verses": [
+
+            ]
+        },
+        {
+            "Chapter": 22,
+            "Verses": [
+
+            ]
+        },
+        {
+            "Chapter": 23,
+            "Verses": [
+
+            ]
+        },
+        {
+            "Chapter": 24,
+            "Verses": [
+
+            ]
+        },
+        {
+            "Chapter": 25,
+            "Verses": [
+
+            ]
+        },
+        {
+            "Chapter": 26,
+            "Verses": [
+
+            ]
+        },
+        {
+            "Chapter": 27,
+            "Verses": [
+
+            ]
+        }
+    ]    
+}

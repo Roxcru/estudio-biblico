@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: estudio-biblico-api
+
+  mongodb:
+    uri: ${MONGODB_URI:mongodb://appBiblia:admin@localhost:27017/estudio_biblico?authSource=estudio_biblico}
+
+app:
+  jwt:
+    secret: ${JWT_SECRET}
+    expiration-ms: 3600000
