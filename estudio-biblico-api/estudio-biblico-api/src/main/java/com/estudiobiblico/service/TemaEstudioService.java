@@ -8,7 +8,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
-
+import org.bson.types.ObjectId;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -93,10 +93,17 @@ public class TemaEstudioService {
         private TemaEstudio obtenerPorId(String id) {
 
                 if (id == null || id.isBlank()) {
-                throw new IllegalArgumentException(
-                        "Debe indicar el ID del tema");
+                        throw new IllegalArgumentException(
+                                "Debe indicar el ID del tema");
                 }
 
+                // Validar el formato del ObjectId de MongoDB
+                if (!ObjectId.isValid(id)) {
+                        throw new IllegalArgumentException(
+                                "El ID del tema no tiene un formato válido");
+                }
+
+                // Buscar el tema en MongoDB
                 return repository.findById(id)
                         .orElseThrow(() ->
                                 new IllegalArgumentException(

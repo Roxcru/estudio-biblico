@@ -12,8 +12,23 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
+import org.springframework.security.authentication.BadCredentialsException;
+
+
 @RestControllerAdvice
 public class GlobalExceptionHandler {
+
+        @ExceptionHandler(BadCredentialsException.class)
+        public ResponseEntity<Map<String, String>> manejarCredencialesIncorrectas(
+                BadCredentialsException ex) {
+
+        return ResponseEntity
+                .status(HttpStatus.UNAUTHORIZED)
+                .body(Map.of(
+                        "error", "Unauthorized",
+                        "mensaje", "Correo o contraseña incorrectos"
+                ));
+        }
 
         @ExceptionHandler(MethodArgumentNotValidException.class)
         public ResponseEntity<Map<String, Object>> manejarValidacion(
@@ -70,18 +85,28 @@ public class GlobalExceptionHandler {
                 ));
         }
 
-
         @ExceptionHandler(IllegalArgumentException.class)
         public ResponseEntity<Map<String, Object>> manejarArgumentoInvalido(
                 IllegalArgumentException ex) {
+
+                String mensaje = ex.getMessage() != null
+                        ? ex.getMessage()
+                        : "Los argumentos enviados no son válidos";
+
+                if ("Tema no encontrado".equals(mensaje)) {
+                        return ResponseEntity
+                                .status(HttpStatus.NOT_FOUND)
+                                .body(Map.of(
+                                        "error", "Not Found",
+                                        "mensaje", mensaje
+                                ));
+                }
 
                 return ResponseEntity
                         .status(HttpStatus.BAD_REQUEST)
                         .body(Map.of(
                                 "error", "Bad Request",
-                                "mensaje", ex.getMessage() != null
-                                        ? ex.getMessage()
-                                        : "Los argumentos enviados no son válidos"
+                                "mensaje", mensaje
                         ));
         }
 
@@ -97,5 +122,5 @@ public class GlobalExceptionHandler {
                                         ? ex.getMessage()
                                         : "Se produjo un error interno"
                         ));
-        }
+        }  
 }

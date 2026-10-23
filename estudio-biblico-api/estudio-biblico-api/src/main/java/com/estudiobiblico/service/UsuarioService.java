@@ -1,5 +1,6 @@
-
 package com.estudiobiblico.service;
+
+import org.springframework.security.authentication.BadCredentialsException;
 
 import java.time.Instant;
 import java.util.Locale;
@@ -67,23 +68,20 @@ public class UsuarioService {
     public Usuario autenticar(String correo, String contrasena) {
         if (correo == null || correo.isBlank()
                 || contrasena == null || contrasena.isBlank()) {
-            throw new IllegalArgumentException(
-                "Correo o contraseña incorrectos"
-            );
+            throw new BadCredentialsException(
+                    "Correo o contraseña incorrectos");
         }
 
         Usuario usuario = usuarioRepository
                 .findByCorreoIgnoreCase(correo.trim())
-                .orElseThrow(() -> new IllegalArgumentException(
-                    "Correo o contraseña incorrectos"
-                ));
+                .orElseThrow(() -> new BadCredentialsException(
+                        "Correo o contraseña incorrectos"));
 
         if (!usuario.isActivo()
                 || !passwordEncoder.matches(
-                    contrasena, usuario.getPasswordHash())) {
-            throw new IllegalArgumentException(
-                "Correo o contraseña incorrectos"
-            );
+                        contrasena, usuario.getPasswordHash())) {
+            throw new BadCredentialsException(
+                    "Correo o contraseña incorrectos");
         }
 
         return usuario;
