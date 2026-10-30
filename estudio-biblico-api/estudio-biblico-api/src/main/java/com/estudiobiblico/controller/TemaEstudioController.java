@@ -41,7 +41,7 @@ public class TemaEstudioController {
     @PostMapping
     public TemaEstudio crear(
             @AuthenticationPrincipal Jwt jwt,
-            @RequestBody TemaEstudio tema) {
+            @Valid @RequestBody TemaEstudio tema) {
 
         tema.setUsuarioId(jwt.getSubject());
 

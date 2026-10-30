@@ -6,6 +6,7 @@ spring:
     name: estudio-biblico-api
 
   mongodb:
+    auto-index-creation: true
     uri: ${MONGODB_URI:mongodb://appBiblia:admin@localhost:27017/estudio_biblico?authSource=estudio_biblico}
 
 app:

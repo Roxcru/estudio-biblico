@@ -411,6 +411,182 @@
                     "Orden": 5,
                     "Path":"./biblia/Latinoamericana/hechos.json",
                     "CantChapter": 28
+                },
+                {
+                    "Name":"Carta a los Romanos",
+                    "Menu":"Romanos",
+                    "Testament":"N",
+                    "Orden": 6,
+                    "Path":"./biblia/Latinoamericana/romanos.json",
+                    "CantChapter": 16
+                },
+                {
+                    "Name":"1º Carta a los Corintios",
+                    "Menu":"1 Corintios",
+                    "Testament":"N",
+                    "Orden": 7,
+                    "Path":"./biblia/Latinoamericana/1corintios.json",
+                    "CantChapter": 16
+                },
+                {
+                    "Name":"2º Carta a los Corintios",
+                    "Menu":"2 Corintios",
+                    "Testament":"N",
+                    "Orden": 8,
+                    "Path":"./biblia/Latinoamericana/2corintios.json",
+                    "CantChapter": 13
+                },
+                {
+                    "Name":"Carta a los Gálatas",
+                    "Menu":"Gálatas",
+                    "Testament":"N",
+                    "Orden": 9,
+                    "Path":"./biblia/Latinoamericana/galatas.json",
+                    "CantChapter": 6
+                },
+                {
+                    "Name":"Carta a los Efesios",
+                    "Menu":"Efesios",
+                    "Testament":"N",
+                    "Orden": 10,
+                    "Path":"./biblia/Latinoamericana/efesios.json",
+                    "CantChapter": 6
+                },
+                {
+                    "Name": "Carta a los Filipenses",
+                    "Menu": "Filipenses",
+                    "Testament": "N",
+                    "Orden": 11,
+                    "Path": "./biblia/Latinoamericana/filipenses.json",
+                    "CantChapter": 4
+                },
+                {
+                    "Name": "Carta a los Colosenses",
+                    "Menu": "Colosenses",
+                    "Testament": "N",
+                    "Orden": 12,
+                    "Path": "./biblia/Latinoamericana/colosenses.json",
+                    "CantChapter": 4
+                },
+                {
+                    "Name": "1º Carta a los Tesalonicenses",
+                    "Menu": "1 Tesalonicenses",
+                    "Testament": "N",
+                    "Orden": 13,
+                    "Path": "./biblia/Latinoamericana/1tesalonicenses.json",
+                    "CantChapter": 5
+                },
+                {
+                    "Name": "2º Carta a los Tesalonicenses",
+                    "Menu": "2 Tesalonicenses",
+                    "Testament": "N",
+                    "Orden": 14,
+                    "Path": "./biblia/Latinoamericana/2tesalonicenses.json",
+                    "CantChapter": 3
+                },
+                {
+                    "Name": "1º Carta a Timoteo",
+                    "Menu": "1 Timoteo",
+                    "Testament": "N",
+                    "Orden": 15,
+                    "Path": "./biblia/Latinoamericana/1timoteo.json",
+                    "CantChapter": 6
+                },
+                {
+                    "Name": "2º Carta a Timoteo",
+                    "Menu": "2 Timoteo",
+                    "Testament": "N",
+                    "Orden": 16,
+                    "Path": "./biblia/Latinoamericana/2timoteo.json",
+                    "CantChapter": 4
+                },
+                {
+                    "Name": "Carta a Tito",
+                    "Menu": "Tito",
+                    "Testament": "N",
+                    "Orden": 17,
+                    "Path": "./biblia/Latinoamericana/tito.json",
+                    "CantChapter": 3
+                },
+                {
+                    "Name": "Carta a Filemón",
+                    "Menu": "Filemón",
+                    "Testament": "N",
+                    "Orden": 18,
+                    "Path": "./biblia/Latinoamericana/filemon.json",
+                    "CantChapter": 1
+                },
+                {
+                    "Name": "Carta a los Hebreos",
+                    "Menu": "Hebreos",
+                    "Testament": "N",
+                    "Orden": 19,
+                    "Path": "./biblia/Latinoamericana/hebreos.json",
+                    "CantChapter": 13
+                },
+                {
+                    "Name": "Carta de Santiago",
+                    "Menu": "Santiago",
+                    "Testament": "N",
+                    "Orden": 20,
+                    "Path": "./biblia/Latinoamericana/santiago.json",
+                    "CantChapter": 5
+                },
+                {
+                    "Name": "1º Carta de Pedro",
+                    "Menu": "1 Pedro",
+                    "Testament": "N",
+                    "Orden": 21,
+                    "Path": "./biblia/Latinoamericana/1pedro.json",
+                    "CantChapter": 5
+                },
+                {
+                    "Name": "2º Carta de Pedro",
+                    "Menu": "2 Pedro",
+                    "Testament": "N",
+                    "Orden": 22,
+                    "Path": "./biblia/Latinoamericana/2pedro.json",
+                    "CantChapter": 3
+                },
+                {
+                    "Name": "1º Carta de Juan",
+                    "Menu": "1 Juan",
+                    "Testament": "N",
+                    "Orden": 23,
+                    "Path": "./biblia/Latinoamericana/1juan.json",
+                    "CantChapter": 5
+                },
+                {
+                    "Name": "2º Carta de Juan",
+                    "Menu": "2 Juan",
+                    "Testament": "N",
+                    "Orden": 24,
+                    "Path": "./biblia/Latinoamericana/2juan.json",
+                    "CantChapter": 1
+                },
+                {
+                    "Name": "3º Carta de Juan",
+                    "Menu": "3 Juan",
+                    "Testament": "N",
+                    "Orden": 25,
+                    "Path": "./biblia/Latinoamericana/3juan.json",
+                    "CantChapter": 1
+                },
+                {
+                    "Name": "Carta de Judas",
+                    "Menu": "Judas",
+                    "Testament": "N",
+                    "Orden": 26,
+                    "Path": "./biblia/Latinoamericana/judas.json",
+                    "CantChapter": 1
+                },
+                {
+                    "Name": "Apocalipsis",
+                    "Menu": "Apocalipsis",
+                    "Testament": "N",
+                    "Orden": 27,
+                    "Path": "./biblia/Latinoamericana/apocalipsis.json",
+                    "CantChapter": 22
                 }
             ]
         },

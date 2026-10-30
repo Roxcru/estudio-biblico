@@ -39,40 +39,43 @@ public class TemaEstudioService {
         public TemaEstudio crear(TemaEstudio tema) {
 
                 if (tema == null) {
-                throw new IllegalArgumentException(
-                        "El tema de estudio no puede ser nulo");
+                        throw new IllegalArgumentException(
+                                "Los datos del tema son obligatorios");
                 }
 
                 if (tema.getUsuarioId() == null
                         || tema.getUsuarioId().isBlank()) {
-                throw new IllegalArgumentException(
-                        "Debe indicar el usuario del tema");
+                        throw new IllegalArgumentException(
+                                "El usuarioId es obligatorio");
                 }
 
                 if (tema.getTitulo() == null
                         || tema.getTitulo().isBlank()) {
-                throw new IllegalArgumentException(
-                        "El título del tema es obligatorio");
+                        throw new IllegalArgumentException(
+                                "El título del tema es obligatorio");
                 }
 
+                // El ID se genera al guardar el documento en MongoDB.
                 tema.setId(null);
 
+                // Inicializar la lista de versículos si no fue enviada.
                 if (tema.getVersiculos() == null) {
-                tema.setVersiculos(new ArrayList<>());
+                        tema.setVersiculos(new ArrayList<>());
                 }
 
-                // Validar todas las referencias antes de guardar.
+                // Validar las referencias bíblicas.
                 validarReferencias(tema.getVersiculos());
 
+                // Validar siempre el estado, incluso cuando no está vacío.
+                // Si es null o está vacío, se asignará BORRADOR.
+                tema.setEstado(validarEstado(tema.getEstado()));
+
+                // Inicializar fechas de creación y actualización.
                 Instant ahora = Instant.now();
                 tema.setFechaCreacion(ahora);
                 tema.setFechaActualizacion(ahora);
 
-                if (tema.getEstado() == null
-                        || tema.getEstado().isBlank()) {
-                tema.setEstado("BORRADOR");
-                }
-
+                // Guardar el tema en MongoDB.
                 return repository.save(tema);
         }
 
@@ -247,8 +250,8 @@ public class TemaEstudioService {
                 tema.setIntroduccion(datos.introduccion());
                 tema.setConclusion(datos.conclusion());
 
-                if (datos.estado() != null && !datos.estado().isBlank()) {
-                        tema.setEstado(datos.estado().trim());
+                if (datos.estado() != null) {
+                        tema.setEstado(validarEstado(datos.estado()));
                 }
 
                 tema.setEsPublico(datos.esPublico());
@@ -762,5 +765,20 @@ public class TemaEstudioService {
                         usuarioId,
                         pageable
                         );
+        }
+
+        private String validarEstado(String estado) {
+                if (estado == null || estado.isBlank()) {
+                        return "BORRADOR";
+                }
+
+                String normalizado = estado.trim().toUpperCase();
+
+                if (!normalizado.matches("BORRADOR|PUBLICADO|ARCHIVADO")) {
+                        throw new IllegalArgumentException(
+                                "El estado debe ser BORRADOR, PUBLICADO o ARCHIVADO");
+                }
+
+                return normalizado;
         }
 }

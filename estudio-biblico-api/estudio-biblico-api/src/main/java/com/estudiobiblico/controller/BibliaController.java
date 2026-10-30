@@ -1,6 +1,9 @@
 
 package com.estudiobiblico.controller;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import org.springframework.web.bind.annotation.GetMapping;
@@ -23,7 +26,7 @@ public class BibliaController {
         this.bibliaService = bibliaService;
     }
 
-    // Obtener la versión bíblica predeterminada
+    // Obtener la version biblica predeterminada
     @GetMapping("/version")
     public Map<String, String> obtenerVersion() {
         return Map.of(
@@ -32,44 +35,67 @@ public class BibliaController {
         );
     }
 
-    // Listar los libros de la Biblia
-    @GetMapping("/libros")
-    public JsonNode listarLibros() {
-        return bibliaService.listarLibros();
+    // Listar las versiones disponibles
+    @GetMapping("/versiones")
+    public List<Map<String, Object>> listarVersiones() {
+        List<Map<String, Object>> resultado = new ArrayList<>();
+
+        for (JsonNode version : bibliaService.listarVersiones()) {
+            Map<String, Object> item = new HashMap<>();
+            item.put("codigo", version.path("Code").asInt());
+            item.put("version", version.path("Version").asText());
+
+            resultado.add(item);
+        }
+
+        return resultado;
     }
 
-    // Obtener un libro bíblico
+    // Listar libros de la version seleccionada
+    @GetMapping("/libros")
+    public JsonNode listarLibros(
+            @RequestParam(defaultValue = "Reina Valera 1960")
+            String version) {
+
+        return bibliaService.listarLibros(version);
+    }
+
+    // Obtener un libro de la version seleccionada
     @GetMapping("/libros/{codigoLibro}")
     public JsonNode obtenerLibro(
-            @PathVariable String codigoLibro) {
+            @PathVariable String codigoLibro,
+            @RequestParam(defaultValue = "Reina Valera 1960")
+            String version) {
 
-        return bibliaService.obtenerLibro(codigoLibro);
+        return bibliaService.obtenerLibro(
+                version,
+                codigoLibro
+        );
     }
 
-    // Obtener un capítulo de un libro bíblico
+    // Obtener un capitulo de la version seleccionada
     @GetMapping("/libros/{codigoLibro}/capitulos/{numeroCapitulo}")
     public JsonNode obtenerCapitulo(
             @PathVariable String codigoLibro,
-            @PathVariable int numeroCapitulo) {
+            @PathVariable int numeroCapitulo,
+            @RequestParam(defaultValue = "Reina Valera 1960")
+            String version) {
 
         return bibliaService.obtenerCapitulo(
+                version,
                 codigoLibro,
                 numeroCapitulo
         );
     }
 
-    // Validar una referencia bíblica
+    // Validar una referencia biblica
     @GetMapping("/validar")
     public Map<String, Object> validarReferencia(
             @RequestParam(defaultValue = "Reina Valera 1960")
             String version,
-
             @RequestParam String libro,
-
             @RequestParam Integer capitulo,
-
             @RequestParam Integer versiculoDesde,
-
             @RequestParam Integer versiculoHasta) {
 
         bibliaService.validarReferencia(
@@ -82,7 +108,7 @@ public class BibliaController {
 
         return Map.of(
                 "valida", true,
-                "mensaje", "La referencia bíblica es válida"
+                "mensaje", "La referencia biblica es valida"
         );
     }
 }
